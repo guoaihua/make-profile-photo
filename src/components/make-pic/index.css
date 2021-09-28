@@ -1,0 +1,13 @@
+.container {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+  background: url("./bg.png") no-repeat center,
+    url("./mask.png") no-repeat center;
+  background-size: 100% 100% !important;
+  background-blend-mode: multiply;
+}
+
+.upload {
+  display: inline-block;
+}
